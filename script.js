@@ -38,5 +38,5 @@ function calculateAge() {
     var monthsInWords = numberToWords(months);
     var daysInWords = numberToWords(days);
 
-    document.getElementById('result').innerHTML = `${years} (${yearsInWords}) years, ${months} (${monthsInWords}) months, and ${days} (${daysInWords})`;
+    document.getElementById('result').innerHTML = `${years} (${yearsInWords}) years, ${months} (${monthsInWords}) months, and ${days} (${daysInWords}) days old`;
 }

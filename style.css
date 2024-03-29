@@ -1,0 +1,62 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #6E8EFB, #a777e3);
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.age-calculator {
+    background: #EFF0F3;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.1), -8px -8px 15px rgba(255, 255, 255, 0.5);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    margin: 20px;
+}
+
+input[type=date], button {
+    margin: 15px 0;
+    padding: 12px;
+    border: 2px solid #ccc; /* Added a solid border */
+    border-radius: 10px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+    background: #EFF0F3; /* Background color for inputs and button */
+    color: #333; /* Text color */
+    transition: all 0.3s ease;
+}
+
+input[type=date]:focus, button:focus {
+    border-color: #6E8EFB; /* Change border color on focus */
+}
+
+button {
+    background-color: #2453ec;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background: #5a7be0;
+}
+
+#result {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #EFF0F3;
+    border-radius: 10px;
+    color: #333;
+    border: 2px solid #ccc; /* Consistent border for the result box */
+}
